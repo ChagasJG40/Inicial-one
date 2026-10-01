@@ -4,4 +4,6 @@ try:
     r = a/b
 except:
     print('Infelizmente tivemos um problema')
-print(f'O resultado de r é: {r}')
+else:
+    
+    print(f'O resultado de r é: {r:.1f}')
